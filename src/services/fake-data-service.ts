@@ -1,4 +1,4 @@
-import { Interview } from "@/app/entities/interview";
+import { Interview } from "@/src/entities/interview";
 
 export const delay = (ms: number) =>
   new Promise((resolve) => setTimeout(resolve, ms));

@@ -2,7 +2,8 @@
   background-color: #eef5ff;
   color: black;
   height: auto;
-  min-height: 100vh;
+  min-height: calc(100vh - 2rem);
+  width: 100%;
 }
 
 .container {
@@ -27,6 +28,7 @@
   font-size: 0.75rem;
   text-align: justify;
   text-justify: inter-word;
+  
 }
 
 .card:hover {

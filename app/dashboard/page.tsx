@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./page.module.css";
 import { fetchInterviews } from "@/src/services/interview-services";
-import { Interview } from "../entities/interview";
+import { Interview } from "../../src/entities/interview";
 
 export default function Dashboard() {
   const [interviews, setInterviews] = useState<Interview[]>([]);

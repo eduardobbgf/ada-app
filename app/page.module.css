@@ -18,3 +18,21 @@
   background-color: white;
   color: black;
 }
+
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.children {
+  width: 100%;
+}
+
+.navbar {
+  height: 2rem;
+}
+
+.sidebar {
+  width: 200px;
+}
+
